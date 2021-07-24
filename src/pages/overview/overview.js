@@ -1,12 +1,11 @@
 import React from 'react';
 import Layout from '../../components/layout/layout';
-import Sidebar from '../../components/sidebar/sidebar';
 import './overview.css';
 
 const Overview = () => {
     return(
         <div>
-            <Sidebar />
+            <Layout />
             <div className="main">
                 <div className="input">
                     <img src="" alt="" />
