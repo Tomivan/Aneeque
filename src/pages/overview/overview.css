@@ -1,0 +1,54 @@
+.overview{
+    display: flex;
+    margin: 2% 0 0 20%;
+}
+.hr{
+    transform: rotateY(90 deg);
+}
+input{
+    width: 60vw;
+    height: 6vh;
+    border: none;
+    border-radius: 50px;
+    background: #ccc;
+}
+input::placeholder{
+    padding-left: 3em;
+}
+.section{
+    margin-top: 3%;
+}
+.boxes{
+    display: flex;
+}
+.box{
+    border: 1px solid #ccc;
+    margin-right: 3%;
+    padding: 0.5em;
+    width: 15.5vw;
+}
+.graph{
+    margin-top: 3%;
+    border: 1px solid #ccc;
+    width: 60.2vw;
+    height: 30vh;
+}
+.graph-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+}
+.graph-top-left{
+    display: flex;
+}
+.graph-top-left p{
+    padding-right: 0.5em;
+}
+.products{
+    margin-top: 3%;
+    border: 1px solid #ccc;
+    padding: 0.5em;
+}
+.table{
+    width: 60vw;
+}

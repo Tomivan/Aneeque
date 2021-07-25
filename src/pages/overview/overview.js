@@ -6,13 +6,15 @@ const Overview = () => {
     return(
         <div>
             <Layout />
+            <div className="overview">
             <div className="main">
                 <div className="input">
                     <img src="" alt="" />
                     <input type="text" placeholder="Search for Product" />
                 </div>
                 <section className="section">
-                    <h3>Overview</h3>
+                    <h4>Overview</h4>
+                    <div className="boxes">
                     <div className="box">
                         <div className="top">
                             <img src="" alt="" />
@@ -45,11 +47,22 @@ const Overview = () => {
                         <p><strong>$11,340.00</strong></p>
                         <p>Total Orders</p>
                     </div>
+                    </div>
            </section>
-           <section className="graph"></section>
+           <section className="graph">
+               <div className="graph-top">
+                   <div className="graph-top-left">
+                       <p><strong>Income</strong></p>
+                       <p>Expense</p>
+                   </div>
+                   <select>
+                       <option>2020</option>
+                   </select>
+               </div>
+           </section>
            <section className="products">
-               <h3>Popular Products</h3>
-               <table>
+               <h4>Popular Products</h4>
+               <table className="table">
                  <thead>
                     <tr>
                        <th>Photos</th>
@@ -84,6 +97,7 @@ const Overview = () => {
                </table>
             </section>
             </div>
+            <hr className="hr" />
             <div className="aside">
                 <div className="aside-top">
                     <img src="" alt="" />
@@ -144,6 +158,7 @@ const Overview = () => {
                         </div>
                     </div>
                 </section>
+            </div>
             </div>
         </div>
     )
