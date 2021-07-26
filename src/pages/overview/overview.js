@@ -76,22 +76,22 @@ const Overview = () => {
                  </thead>
                  <tbody>
                      <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                         <td></td>
+                        <td>Cowboy Hat</td>
+                        <td>Aug 12,2020</td>
+                        <td>Fashion</td>
+                        <td>Swallow</td>
+                        <td>$99.99</td>
+                        <td>Available</td>
                      </tr>
                      <tr>
                         <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td>Smartphone</td>
+                        <td>Aug 12,2020</td>
+                        <td>Gadget</td>
+                        <td>Mite</td>
+                        <td>$99.99</td>
+                        <td>Available</td>
                      </tr>
                  </tbody>
                </table>
@@ -105,7 +105,7 @@ const Overview = () => {
                 </div>
                 <img src="" alt="" />
                 <section className="count">
-                    <div className="products">
+                    <div className="product">
                         <img src="" alt=""/>
                         <div className="number">
                             <p>218</p>

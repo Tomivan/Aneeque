@@ -13,6 +13,7 @@
     "carbon-icons": "^7.0.7",
     "node-sass": "^6.0.1",
     "react": "^17.0.2",
+    "react-chartjs-2": "^3.0.4",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
     "sass-loader": "^12.1.0",

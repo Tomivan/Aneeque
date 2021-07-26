@@ -48,7 +48,13 @@ input::placeholder{
     margin-top: 3%;
     border: 1px solid #ccc;
     padding: 0.5em;
+    width: 60vw;
 }
 .table{
-    width: 60vw;
+    width: 58vw;
+    padding: 0.5em;
+}
+thead{
+    background: rgb(214, 210, 210);
+    height: 3vh;
 }
