@@ -2,6 +2,8 @@ import React from 'react';
 import { SideNavItems, SideNavLink, SideNavMenuItem } from 'carbon-components-react/lib/components/UIShell';
 import './sidebar.css';
 import { StyledSideNav } from './style';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCog, faPaperPlane, faShoppingBag, faStickyNote, faThLarge, faUsers } from '@fortawesome/free-solid-svg-icons';
 
 const Sidebar = () => {
     return(
@@ -11,13 +13,13 @@ const Sidebar = () => {
            </div>
            <SideNavItems>
           <SideNavLink> Menu</SideNavLink>
-            <SideNavMenuItem aria-current="page"><img src="" alt="Dashboard icon" className="nav-icon"/>Overview</SideNavMenuItem>
-            <SideNavMenuItem><img src="" alt="Balance icon" className="nav-icon"/>Order</SideNavMenuItem>
-            <SideNavMenuItem><img src="" alt="Customers icon" className="nav-icon"/>Products</SideNavMenuItem>
-            <SideNavMenuItem><img src="" alt="Analytics icon" className="nav-icon"/>Settings</SideNavMenuItem>
+            <SideNavMenuItem aria-current="page"><FontAwesomeIcon icon={faThLarge} className="nav-icon"/>Overview</SideNavMenuItem>
+            <SideNavMenuItem><FontAwesomeIcon icon={faStickyNote} className="nav-icon"/>Order</SideNavMenuItem>
+            <SideNavMenuItem><FontAwesomeIcon icon={faShoppingBag} className="nav-icon"/>Products</SideNavMenuItem>
+            <SideNavMenuItem><FontAwesomeIcon icon={faCog} className="nav-icon"/>Settings</SideNavMenuItem>
           <SideNavLink>Business</SideNavLink> 
-            <SideNavMenuItem><img src="" alt="Settings" className="nav-icon"/>Shipment</SideNavMenuItem>
-            <SideNavMenuItem><img src="" alt="Team icon" className="nav-icon"/>Employment</SideNavMenuItem>
+            <SideNavMenuItem><FontAwesomeIcon icon={faPaperPlane} className="nav-icon"/>Shipment</SideNavMenuItem>
+            <SideNavMenuItem><FontAwesomeIcon icon={faUsers} className="nav-icon"/>Employee</SideNavMenuItem>
         </SideNavItems>
         </StyledSideNav>
     );

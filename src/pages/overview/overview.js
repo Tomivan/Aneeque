@@ -1,5 +1,7 @@
 import React from 'react';
 import Layout from '../../components/layout/layout';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBell, faCartPlus, faPencilAlt, faSearch, faShoppingBag, faStar, faUsers, faChartPie } from '@fortawesome/free-solid-svg-icons';
 import './overview.css';
 
 const Overview = () => {
@@ -9,7 +11,7 @@ const Overview = () => {
             <div className="overview">
             <div className="main">
                 <div className="input">
-                    <img src="" alt="" />
+                <FontAwesomeIcon icon={faSearch} className="search"/>
                     <input type="text" placeholder="Search for Product" />
                 </div>
                 <section className="section">
@@ -17,7 +19,7 @@ const Overview = () => {
                     <div className="boxes">
                     <div className="box">
                         <div className="top">
-                            <img src="" alt="" />
+                        <FontAwesomeIcon icon={faShoppingBag} className="bag"/>
                             <p>+24%</p>
                         </div>
                         <p><strong>$27,340.00</strong></p>
@@ -25,7 +27,7 @@ const Overview = () => {
                     </div>
                     <div className="box">
                         <div className="top">
-                            <img src="" alt="" />
+                        <FontAwesomeIcon icon={faChartPie} className="aqua"/>
                             <p>-32%</p>
                         </div>
                         <p><strong>$27,340.00</strong></p>
@@ -33,7 +35,7 @@ const Overview = () => {
                     </div>
                     <div className="box">
                         <div className="top">
-                            <img src="" alt="" />
+                        <FontAwesomeIcon icon={faUsers} className="aqua"/>
                             <p>+48%</p>
                         </div>
                         <p><strong>$18,260.00</strong></p>
@@ -41,7 +43,7 @@ const Overview = () => {
                     </div>
                     <div className="box">
                         <div className="top">
-                            <img src="" alt="" />
+                        <FontAwesomeIcon icon={faCartPlus} className="aqua"/>
                             <p>-12%</p>
                         </div>
                         <p><strong>$11,340.00</strong></p>
@@ -100,20 +102,20 @@ const Overview = () => {
             <hr className="hr" />
             <div className="aside">
                 <div className="aside-top">
-                    <img src="" alt="" />
-                    <img src="" alt="" />
+                <FontAwesomeIcon icon={faBell} className="bell"/>
+                <FontAwesomeIcon icon={faPencilAlt} className="pencil"/>
                 </div>
                 <img src="" alt="" />
                 <section className="count">
                     <div className="product">
-                        <img src="" alt=""/>
+                    <FontAwesomeIcon icon={faShoppingBag} className="shopping"/>
                         <div className="number">
                             <p>218</p>
                             <p>Products</p>
                         </div>
                     </div>
                     <div className="followers">
-                        <img src="" alt=""/>
+                        <FontAwesomeIcon icon={faUsers} className="users"/>
                         <div className="number">
                             <p>218</p>
                             <p>Products</p>
@@ -123,7 +125,7 @@ const Overview = () => {
                 <section className="reputation">
                     <h3>Reputation</h3>
                     <div className="star">
-                        <img src="" alt="" />
+                    <FontAwesomeIcon icon={faStar} className="aqua"/>
                     </div>
                 </section>
                 <section className="recent">
