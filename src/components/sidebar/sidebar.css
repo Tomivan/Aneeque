@@ -13,6 +13,7 @@ a.bx--side-nav__link[aria-current='page']{
 .bx--side-nav__navigation{
     z-index: 0;
     border-right: 2px solid #eee;
+    width: 15vw;
 }
 .bx--side-nav__link{
     margin-bottom: 5%;
@@ -25,6 +26,7 @@ svg{
 }
 .nav-icon{
     margin-right: 1em;
+    color: #ccc;
 }
 @media only screen and (max-width: 640px){
     .sidenav{

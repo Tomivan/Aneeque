@@ -1,6 +1,6 @@
 .overview{
     display: flex;
-    margin: 2% 0 0 20%;
+    margin: 2% 0 0 17%;
 }
 .hr{
     transform: rotateY(90 deg);
@@ -57,4 +57,55 @@ input::placeholder{
 thead{
     background: rgb(214, 210, 210);
     height: 3vh;
+}
+.input{
+    display: flex;
+}
+.search{
+    position: relative;
+    left: 3%;
+    margin-top: 1.5%;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.bag{
+    color: orange;
+}
+.pie{
+    color: plum;
+}
+.visitors{
+    color: lightgreen;
+}
+.cart{
+    color: red;
+}
+.aside-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+.bell, .pencil{
+    border: 1px solid #000;
+    border-radius: 50%;
+    height: 4vh;
+}
+.count{
+    display: flex;
+    border: 1px solid #eee;
+    padding: 1em;
+    width: 12vw;
+}
+.product, .followers{
+    display: flex;
+}
+.number p{
+    font-size: 10px;
+    color: #ddd;
+}
+.shopping, .users{
+    background: #ccc;
+    padding: .3em;
 }
