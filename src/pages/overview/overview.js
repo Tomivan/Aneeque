@@ -1,5 +1,9 @@
 import React from 'react';
 import Layout from '../../components/layout/layout';
+import Polygon from '../../assets/octahedron.svg';
+import Bluetooth from '../../assets/bluetooth.jpg';
+import Headset from '../../assets/headset.jpg';
+import Redmi from '../../assets/redmi.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBell, faCartPlus, faPencilAlt, faSearch, faShoppingBag, faStar, faUsers, faChartPie } from '@fortawesome/free-solid-svg-icons';
 import './overview.css';
@@ -78,7 +82,7 @@ const Overview = () => {
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td></td>
+                                    <td><img src={Headset} alt="a headset" className="object"/></td>
                                     <td>Cowboy Hat</td>
                                     <td>Aug 12,2020</td>
                                     <td>Fashion</td>
@@ -87,7 +91,7 @@ const Overview = () => {
                                     <td>Available</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
+                                    <td><img src={Redmi} alt="a redmi phone" className="object"/></td>
                                     <td>Smartphone</td>
                                     <td>Aug 12,2020</td>
                                     <td>Gadget</td>
@@ -106,7 +110,7 @@ const Overview = () => {
                         <FontAwesomeIcon icon={faPencilAlt} className="pencil"/>
                     </div>
                     <figure>
-                        <img src="" alt="" />
+                        <img src={Polygon} alt="" className="konter"/>
                         <figcaption><strong>Konter Pulsa</strong></figcaption>
                     </figure>
                     <section className="count">
@@ -127,40 +131,40 @@ const Overview = () => {
                         </div>
                     </section>
                     <section className="reputation">
-                        <h3>Reputation</h3>
+                        <h5>Reputation</h5>
                         <div className="star">
                             <FontAwesomeIcon icon={faStar} className="aqua"/>
                         </div>
                     </section>
                     <section className="recent">
                         <div className="recent-top">
-                            <h3>Recent Orders</h3>
-                            <p>See All</p>
+                            <h5>Recent Orders</h5>
+                            <p><span className="blue">See All</span></p>
                         </div>
                         <div className="orders">
                             <div className="order">
-                                <img src="" alt="" />
+                                <img src={Redmi} alt=""  className="object"/>
                                 <div className="middle">
                                     <p><strong>Redmi 4x</strong></p>
                                     <p>2 minutes ago</p>
                                 </div>
-                                <p className="price">$80.00</p>
+                                <p className="price"><span className="green">$80.00</span></p>
                             </div>
                             <div className="order">
-                                <img src="" alt="" />
+                                <img src={Headset} alt="" className="object"/>
                                 <div className="middle">
                                     <p><strong>Acer E1-241</strong></p>
                                     <p>2 minutes ago</p>
                                 </div>
-                                <p className="price">$300.00</p>
+                                <p className="price"><span className="green">$300.00</span></p>
                             </div>
                             <div className="order">
-                                <img src="" alt="" />
+                                <img src={Bluetooth} alt="a bluetooth speaker" className="object"/>
                                 <div className="middle">
                                     <p><strong>Nikon D3500</strong></p>
                                     <p>2 minutes ago</p>
                                 </div>
-                                <p className="price">$80.00</p>
+                                <p className="price"><span className="green">$80.00</span></p>
                             </div>
                         </div>
                     </section>

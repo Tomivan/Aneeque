@@ -1,8 +1,16 @@
 .logo {
-    margin: 12% 1% 5% 15%;
+    margin: 10% 0 0 5%;
+    height: 5vh;
+    width: 3vw;
+    background: lightskyblue;
+    border-radius: 50%;
 }
 .nav-heading{
     display: flex;
+}
+.nav-heading p{
+    margin: 12% 0 0 5%;
+    color: lightskyblue;
 }
 .bx--side-nav__item{
     margin-top: 10%;

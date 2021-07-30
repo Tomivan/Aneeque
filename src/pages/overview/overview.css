@@ -2,8 +2,12 @@
     display: flex;
     margin: 2% 0 0 17%;
 }
+.aside{
+    width: 18vw;
+}
 .hr{
     transform: rotateY(90 deg);
+    margin-left: 2%;
 }
 input{
     width: 60vw;
@@ -58,6 +62,13 @@ thead{
     background: rgb(214, 210, 210);
     height: 3vh;
 }
+td{
+    padding-left: 2.5em;
+}
+.object{
+    height: 5vh;
+    width: 2vw;
+}
 .input{
     display: flex;
 }
@@ -87,6 +98,7 @@ thead{
     justify-content: space-between;
     padding: 1em;
 }
+
 .bell, .pencil{
     border: 1px solid #000;
     border-radius: 50%;
@@ -96,16 +108,51 @@ thead{
     display: flex;
     border: 1px solid #eee;
     padding: 1em;
-    width: 12vw;
+    width: 13vw;
+    height: 8vh;
+    margin: 3% 0 0 15%;
 }
 .product, .followers{
     display: flex;
+    padding: 0.3em;
 }
 .number p{
     font-size: 10px;
     color: #ddd;
+    padding-left: 1em;
 }
 .shopping, .users{
     background: #ccc;
     padding: .3em;
+}
+.konter{
+    height: 10vh;
+    width: 5vw;
+    background: lightskyblue;
+    border-radius: 50%;
+    margin-left: 30%;
+}
+figcaption{
+    text-align: center;
+    margin-top: 2%;
+}
+.reputation{
+    margin-top: 5%;
+}
+.recent{
+    margin-top: 5%;
+}
+.recent-top, .order{
+    display: flex;
+    justify-content: space-between;
+}
+.orders{
+    border: 1px solid #ccc;
+    padding: 1em;
+}
+.blue{
+    color: lightblue;
+}
+.green{
+    color: green;
 }
