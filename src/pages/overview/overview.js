@@ -4,6 +4,7 @@ import Polygon from '../../assets/octahedron.svg';
 import Bluetooth from '../../assets/bluetooth.jpg';
 import Headset from '../../assets/headset.jpg';
 import Redmi from '../../assets/redmi.jpg';
+import BarChart from '../Bar/bar';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBell, faCartPlus, faPencilAlt, faSearch, faShoppingBag, faStar, faUsers, faChartPie } from '@fortawesome/free-solid-svg-icons';
 import './overview.css';
@@ -65,6 +66,7 @@ const Overview = () => {
                                 <option>2020</option>
                             </select>
                         </div>
+                        <BarChart />
                     </section>
                     <section className="products">
                         <h4>Popular Products</h4>
